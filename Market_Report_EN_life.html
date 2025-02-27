@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Market Report</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #E8DAB2;
+            font-family: "Merriweather", serif;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        /* Logo styling */
+        #logo {
+            position: fixed; /* Fixed position to stay in place */
+            top: 20px;
+            right: 20px;
+            width: 150px; /* Adjust as needed */
+            height: auto;
+            z-index: 1000; /* Ensure it stays above other content */
+        }
+
+        /* Back button styling */
+        .back-button {
+            position: fixed; /* Fixed position to stay in place */
+            top: 20px; /* Adjust position */
+            left: 20px; /* Adjust position */
+            padding: 8px 12px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 35px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Container styling */
+        .container {
+            padding-top: 20px; /* Start content below the logo and back button */
+            width: 60%;
+            top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow-y: hidden;
+            position: relative;
+        }
+
+        /* Scrolling content styling */
+        .scrolling-content {
+            max-height: 75vh;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            padding: 10px 20px;
+        }
+
+        /* Section headings */
+        h2 {
+            color: #c08b3d;
+            border-bottom: 2px solid #c08b3d;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #2c3e50;
+            margin-top: 25px;
+        }
+
+        /* Paragraph and list styling */
+        p, ul {
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Section divider */
+        .section-divider {
+            width: 50%;
+            height: 2px;
+            background: #c08b3d;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo positioned top-right -->
+    <img id="logo" src="logo.png" alt="Company Logo">
+
+    <!-- Back button positioned top-left -->
+    <a href="Life_EN.html" class="back-button"> ⬅ Back</a>
+    <h1 style="margin-top: 50px; font-size: 40px; color: #2c3e50;">Insurance Market Report - Egypt</h1>
+
+<!-- Main content container -->
+    <!-- Main content container -->
+    <div class="container">
+        <div class="scrolling-content">
+            <h2>Objective</h2>
+            <p>The objective of this report is to provide a comprehensive view on the insurance market in Egypt to assist the readers in making an informed decision regarding their investment and/or operation in the Egyptian Insurance market.</p>
+
+            <div class="section-divider"></div>
+
+            <h2>Target Readers</h2>
+            <ul>
+                <li>Executive management of Insurance companies</li>
+                <li>Investment bankers who may have an opportunity for their clients</li>
+                <li>Asset Managers seeking to understand the insurance market</li>
+                <li>Independent Board Directors of insurance companies</li>
+            </ul>
+
+            <div class="section-divider"></div>
+
+            <h2>Caveats</h2>
+            <ul>
+                <li>Data granularity: Some data are not detailed enough for proper analytics.</li>
+                <li>Data integrity: Figures sometimes change between reports.</li>
+                <li>Imbalance between Life and Non-Life insurance.</li>
+                <li>Inconsistency of presentation, especially in medical insurance.</li>
+            </ul>
+
+            <div class="section-divider"></div>
+
+            <h2>Market Evolution in 5 Years</h2>
+            <h3>COVID</h3>
+            <p>COVID increased insurance claims costs but also raised awareness of medical insurance.</p>
+
+            <h3>Post-COVID</h3>
+            <p>A surge in business occurred due to the resumption of trade.</p>
+
+            <h3>Devaluation</h3>
+            <p>Between 2022-2024, the exchange rate increased 300%, impacting insurance costs and premiums.</p>
+
+            <h3>Geopolitical Situation</h3>
+            <p>Regional conflicts in 2024 have stressed the economy and increased risk factors.</p>
+
+            <h3>New Insurance Law</h3>
+            <p>New law introduced more coverages and specialty insurances such as medical and microinsurance.</p>
+
+            <div class="section-divider"></div>
+
+            <h2>Current Market</h2>
+            <h3>Penetration</h3>
+            <p>Penetration rate remains at approximately 0.7% in Egypt.</p>
+
+            <h3>Regulations</h3>
+            <ul>
+                <li>Regulated by the Financial Regulatory Authority.</li>
+                <li>Still uses Solvency 1 rather than a risk-based approach.</li>
+                <li>Mandatory implementation of EAS 50 (Egyptian version of IFRS 17) in 2023.</li>
+            </ul>
+
+            <h3>Main Players</h3>
+            <p>Over 40 companies dominate the market, including Misr Insurance, Allianz, AXA, MetLife, and GIG.</p>
+
+            <h3>Dominant Lines</h3>
+            <ul>
+                <li>Life: Group Life, Credit Life, and Medical Insurance.</li>
+                <li>Non-Life: Medical, Motor (Complementary), and Property.</li>
+            </ul>
+
+            <h3>Digitization</h3>
+            <ul>
+                <li>Companies are digitalizing operations for efficiency and fraud prevention.</li>
+                <li>Regulator is focusing on cybersecurity and data integration.</li>
+            </ul>
+
+            <div class="section-divider"></div>
+
+            <h2>SWOT Analysis</h2>
+
+            <h3>Strengths</h3>
+            <ul>
+                <li>Growing Market Size.</li>
+                <li>High Population Base (young demographic).</li>
+            </ul>
+
+            <h3>Weaknesses</h3>
+            <ul>
+                <li>Lack of Public Awareness.</li>
+                <li>Weak Distribution Channels.</li>
+                <li>Fraud and Claims Management Issues.</li>
+                <li>Limited Affordability.</li>
+                <li>Product Innovation Deficiency.</li>
+            </ul>
+
+            <h3>Opportunities</h3>
+            <ul>
+                <li>Low Insurance Penetration.</li>
+                <li>Digital Transformation.</li>
+                <li>Expected economic growth due to mega projects.</li>
+                <li>Government Initiatives on financial inclusion.</li>
+                <li>Expansion into SMEs and Microinsurance.</li>
+                <li>International Investment Interest.</li>
+            </ul>
+
+            <h3>Threats</h3>
+            <ul>
+                <li>Economic Instability.</li>
+                <li>Geopolitical Vulnerability.</li>
+                <li>Regulatory Changes.</li>
+                <li>Competition from Informal Insurance.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

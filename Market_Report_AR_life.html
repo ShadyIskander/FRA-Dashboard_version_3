@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقرير سوق التأمين</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #E8DAB2;
+            font-family: "Merriweather", serif;
+            color: #2c3e50;
+            text-align: center;
+            direction: rtl;
+        }
+
+        /* تنسيق الشعار */
+        #logo {
+            position: fixed; /* Fixed position to stay in place */
+            top: 20px;
+            right: 20px;
+            width: 150px; /* Adjust as needed */
+            height: auto;
+            z-index: 1000; /* Ensure it stays above other content */
+        }
+
+        /* زر الرجوع */
+        .back-button {
+            position: fixed; /* Fixed position to stay in place */
+            top: 20px; /* Adjust position */
+            left: 20px; /* Adjust position */
+            padding: 8px 12px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 35px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+
+        /* تنسيق الحاوية */
+        .container {
+            padding-top: 20px;
+            width: 60%;
+            top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow-y: hidden;
+            position: relative;
+        }
+
+        .scrolling-content {
+            max-height: 75vh;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            padding: 10px 20px;
+        }
+
+        h2 {
+            color: #c08b3d;
+            border-bottom: 2px solid #c08b3d;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #2c3e50;
+            margin-top: 25px;
+        }
+
+        p, ul {
+            text-align: right;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-right: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .section-divider {
+            width: 50%;
+            height: 2px;
+            background: #c08b3d;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="logo.png" alt="شعار الشركة">
+
+    <a href="Life_AR.html" class="back-button">رجوع⬅</a>
+    <h1 style="margin-top: 50px; font-size: 40px; color: #2c3e50;">تقرير سوق التأمين - مصر</h1>
+
+    <div class="container">
+        <div class="scrolling-content">
+            <h2>الهدف</h2>
+            <p>يهدف هذا التقرير إلى تقديم رؤية شاملة عن سوق التأمين في مصر لمساعدة القراء على اتخاذ قرارات مستنيرة بشأن الاستثمار أو العمليات في السوق المصري.</p>
+
+            <div class="section-divider"></div>
+
+            <h2>الجمهور المستهدف</h2>
+            <ul>
+                <li>الإدارة التنفيذية لشركات التأمين</li>
+                <li>المصرفيون الاستثماريون الذين لديهم فرص لعملائهم</li>
+                <li>مديرو الأصول المهتمون بفهم سوق التأمين</li>
+                <li>أعضاء مجلس الإدارة المستقلين لشركات التأمين</li>
+            </ul>
+
+            <div class="section-divider"></div>
+
+            <h2>تحفظات</h2>
+            <ul>
+                <li>تفاصيل البيانات: بعض البيانات ليست مفصلة بما يكفي للتحليل الدقيق.</li>
+                <li>سلامة البيانات: الأرقام تتغير أحيانًا بين التقارير.</li>
+                <li>عدم التوازن بين التأمين على الحياة وغير الحياة.</li>
+                <li>عدم اتساق العرض، خاصة في التأمين الطبي.</li>
+            </ul>
+
+            <div class="section-divider"></div>
+
+            <h2>تطور السوق خلال 5 سنوات</h2>
+            <h3>جائحة كورونا</h3>
+            <p>أدت الجائحة إلى زيادة تكاليف المطالبات التأمينية لكنها رفعت الوعي بالتأمين الطبي.</p>
+
+            <h3>ما بعد الجائحة</h3>
+            <p>حدثت طفرة في الأعمال بسبب استئناف التجارة.</p>
+
+            <h3>خفض قيمة العملة</h3>
+            <p>بين 2022-2024، زاد سعر الصرف بنسبة 300% مما أثر على تكاليف التأمين والأقساط.</p>
+
+            <h3>الوضع الجيوسياسي</h3>
+            <p>تسببت النزاعات الإقليمية في 2024 في ضغوط اقتصادية وزيادة المخاطر.</p>
+
+            <h3>قانون التأمين الجديد</h3>
+            <p>أدخل القانون الجديد تغطيات إضافية مثل التأمين الطبي والتأمين متناهي الصغر.</p>
+
+            <div class="section-divider"></div>
+
+            <div class="section-divider"></div>
+
+            <h2>السوق الحالي</h2>
+            <h3>الاختراق</h3>
+            <p>نسبة الاختراق لا تزال حوالي 0.7% في مصر.</p>
+
+            <h3>التشريعات</h3>
+            <ul>
+                <li>تنظيم هيئة الرقابة المالية.</li>
+                <li>استخدام معيار الملاءة المالية 1 بدلاً من النهج القائم على المخاطر.</li>
+                <li>تنفيذ معيار المحاسبة المصري 50 (EAS 50) في 2023.</li>
+            </ul>
+
+            <h3>اللاعبون الرئيسيون</h3>
+            <p>يوجد أكثر من 40 شركة بارزة في السوق، بما في ذلك مصر للتأمين، أليانز، أكسا، ميتلايف، وGIG.</p>
+
+            <h3>القطاعات المهيمنة</h3>
+            <ul>
+                <li>الحياة: التأمين الجماعي، التأمين على القروض، التأمين الطبي.</li>
+                <li>غير الحياة: التأمين الطبي، تأمين السيارات، والتأمين على الممتلكات.</li>
+            </ul>
+
+            <h2>تحليل SWOT</h2>
+            <h3>نقاط القوة</h3>
+            <ul>
+                <li>تكنولوجيا متقدمة</li>
+                <li>فريق ذو خبرة</li>
+                <li>قاعدة عملاء واسعة</li>
+            </ul>
+            
+            <h3>نقاط الضعف</h3>
+            <ul>
+                <li>تكاليف تشغيلية مرتفعة</li>
+                <li>اعتماد كبير على عدد قليل من العملاء الرئيسيين</li>
+                <li>حاجة دائمة إلى التحديثات التقنية</li>
+            </ul>
+            
+            <h3>الفرص</h3>
+            <ul>
+                <li>التوسع في الأسواق الناشئة</li>
+                <li>إطلاق منتجات جديدة</li>
+                <li>الشراكات الاستراتيجية</li>
+            </ul>
+            
+            <h3>التحديات</h3>
+            <ul>
+                <li>المنافسة الشديدة</li>
+                <li>التغيرات في التشريعات</li>
+                <li>التطور السريع في التكنولوجيا</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
